@@ -1,0 +1,12 @@
+#box {
+  margin-top: 10px;
+}
+
+.inside {
+  margin: 5px;
+  padding: 10px;
+  background: #3e3e3e;
+  color: white;
+  border-radius: 5px;
+}
+
