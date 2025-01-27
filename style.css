@@ -1,12 +1,32 @@
-#box {
-  margin-top: 10px;
+body {
+  background: #0a3b7b;
+  color: #f5f8f9;
+  max-width: 960px;
+  margin: auto;
+  padding: 0px 20px;
 }
 
-.inside {
-  margin: 5px;
-  padding: 10px;
-  background: #3e3e3e;
-  color: white;
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold, sans-serif;';
+  margin: 50px 0px 70px 0px;
+  font-size: 48px;
+}
+
+.todo {
+  background: #c11010;
+  font-size: 24px;
+  margin: 15px 10px;
+  padding: 10px 20px;
   border-radius: 5px;
 }
+.todo:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #e6ebf0;
+}
+
 
